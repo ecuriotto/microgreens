@@ -1,0 +1,22 @@
+{
+  "it": {
+    "home1Title": "Ti interessa la salute?",
+    "home2Title": "Cosa sono i <b>microgreens</b>?",
+    "home3Title": "Sei quello che mangi!",
+    "about1Title": "Perchè i microgreens?",
+    "home1": "Sei alla ricerca di un'opzione sana ed equilibrata per arricchire la tua dieta? Allora i <b>microgreens</b> potrebbero fare al caso tuo!",
+    "home2": "Sono ricchi di nutrienti, antiossidanti e fibre, e possono aggiungere un tocco di freschezza e vitalità ai tuoi pasti.",
+    "home3": "Scegliere i <b>microgreens</b> significa prendersi cura di sé stessi, nutrendo il proprio corpo con ciò che di migliore la natura ha da offrire.",
+    "about1": "<h2>5 motivi per aggiungere i <b>microgreens</b> a una dieta mediterranea</h2><ul><li> <b>Ti aiutano a raggiungere una maggiore varietà di nutrienti</b><br> i microgreens contengono una vasta gamma di vitamine e minerali essenziali per la salute.</li><li>Aggiungono una nota di freschezza e vitalità ai tuoi piatti: i microgreens sono ricchi di clorofilla, che conferisce loro un colore verde intenso e un sapore fresco e leggermente erbaceo.</li><li>Sono un'ottima fonte di antiossidanti: i microgreens contengono composti naturali che aiutano a proteggere le cellule del tuo corpo dai danni dei radicali liberi.</li><li>Sono facili da coltivare anche in casa: i microgreens possono essere coltivati in piccoli spazi e con pochi strumenti, rendendoli una scelta ideale per chi ama l'orticultura casalinga.</li><li>Possono essere aggiunti a una vasta gamma di piatti: i microgreens possono essere utilizzati come guarnizione per insalate, sandwich e piatti di pesce, o come ingrediente in smoothie e altre preparazioni.</li></ul>"
+  },
+  "en": {
+    "home1": "Are you looking for a healthy and balanced option to enrich your diet? Then <b>microgreens</b> might be just what you need!",
+    "home2": "They are rich in nutrients, antioxidants, and fiber, and can add a touch of freshness and vitality to your meals.",
+    "home3": "Choosing <b>microgreens</b> means taking care of yourself, nourishing your body with the best that nature has to offer.",
+    "about1Title": "Why microgreens?",
+    "home1Title": "Do you care about your health?",
+    "home2Title": "What are <b>microgreens</b>?",
+    "home3Title": "You are what you eat!",
+    "about1": "todo"
+  }
+}

@@ -1,5 +1,4 @@
-var navbarDiv = document.getElementById('navbar');
-
+/*
 navbarDiv.innerHTML = `
         <div class="container">
           <nav class="navbar navbar-expand-lg custom_nav-container">
@@ -45,9 +44,6 @@ navbarDiv.innerHTML = `
                 </button>
               </div>
               <div class="user_option">
-                <a href="">
-                  <i class="fa fa-adjust"></i>
-                </a>
                 <a href="" class="user_link">
                   <i class="fa fa-user" aria-hidden="true"></i>
                 </a>
@@ -64,3 +60,4 @@ navbarDiv.innerHTML = `
         </div>
 
 `;
+*/

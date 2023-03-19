@@ -3,12 +3,13 @@ function getBrowserLanguage() {
 }
 
 function loadTranslations(lang) {
-  fetch('translations.json')
+  fetch('../data/translations.json')
     .then((response) => response.json())
     .then((data) => {
       const elements = document.querySelectorAll('.trans');
       elements.forEach((element) => {
         const id = element.getAttribute('id');
+        console.log(id);
         element.innerHTML = data[lang][id];
       });
     })
