@@ -9,6 +9,10 @@ app.get('/', (req, res) => {
   res.render('single');
 });
 
-app.listen(8080, () => {
-  console.log('listening on port 8080');
+app.get('/home', (req, res) => {
+  res.render('home');
+});
+
+app.listen(8088, () => {
+  console.log('listening on port 8088');
 });

@@ -40,12 +40,12 @@ padding-left: 0;
 
 @media (max-width: 767px) {
 
-  .about_section .detail-box,
+  .why_section .detail-box,
   .book_section .form_container {
     margin-bottom: 45px;
   }
 
-  .about_section .row {
+  .why_section .row {
     flex-direction: column-reverse;
   }
 

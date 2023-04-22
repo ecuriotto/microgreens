@@ -1,2 +1,2 @@
-Sito template themewagon.
-Lancialo con npx http-server
+Sito template themewagon (feane).
+Lancialo con npm start
