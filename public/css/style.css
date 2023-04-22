@@ -102,10 +102,6 @@ a:focus {
   flex-direction: column;
 }
 
-header {
-  position: fixed
-}
-
 .bg-box {
   position: absolute;
   top: 0;
