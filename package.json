@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon index.js"
+    "start": "http-server -p 8088",
+    "build": "npx grunt"
   },
   "repository": {
     "type": "git",
@@ -19,14 +20,7 @@
   },
   "homepage": "https://github.com/ecuriotto/microgreens#readme",
   "dependencies": {
-    "dotenv": "^16.0.3",
-    "ejs": "^3.1.9",
-    "express": "^4.18.2",
-    "nodemailer": "^6.9.1",
-    "nodemon": "^2.0.21"
-  },
-  "devDependencies": {
-    "ejs-loader": "^0.5.0",
-    "html-webpack-plugin": "^5.5.1"
+    "grunt-contrib-concat": "^2.1.0",
+    "grunt-contrib-copy": "^1.0.0"
   }
 }
