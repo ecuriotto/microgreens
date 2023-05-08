@@ -5,8 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "http-server -p 8088",
-    "build": "npx grunt"
+    "start:run": "cd dist && http-server -p 8088",
+    "start:build": "npx grunt",
+    "start:all": "npm run start:build && npm run start:run"
   },
   "repository": {
     "type": "git",

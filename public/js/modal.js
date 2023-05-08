@@ -1,31 +1,23 @@
 function openModal(modalNames) {
-  // Loop through the array of modal names
   for (var i = 0; i < modalNames.length; i++) {
-    // Get the buttons that open the modal
     const btns = document.getElementsByClassName(modalNames[i] + 'Btn');
     if (btns && btns.length > 0) {
       let btn = btns[0];
+      let modal = document.getElementById(modalNames[i] + 'Modal');
+      let span = modal.getElementsByClassName('close')[0];
 
-      // Get the modal
-      var modal = document.getElementById(modalNames[i] + 'Modal');
+      // create a closure around the modal variable
+      btn.onclick = (function (modal) {
+        return function () {
+          modal.style.display = 'block';
+          window.addEventListener('click', function (event) {
+            if (event.target == modal) {
+              modal.style.display = 'none';
+            }
+          });
+        };
+      })(modal);
 
-      // Get the <span> element that closes the modal
-      var span = modal.getElementsByClassName('close')[0];
-
-      // When the user clicks the button, open the modal
-      btn.onclick = function (event) {
-        //event.preventDefault();
-        modal.style.display = 'block';
-
-        // When the user clicks anywhere outside of the modal, close it
-        window.addEventListener('click', function (event) {
-          if (event.target == modal) {
-            modal.style.display = 'none';
-          }
-        });
-      };
-
-      // When the user clicks on <span> (x), close the modal
       span.onclick = function () {
         modal.style.display = 'none';
       };
@@ -34,14 +26,15 @@ function openModal(modalNames) {
 }
 
 async function getPlantData(id) {
-  try{
-  const response = await fetch('../data/microVitamins.json');
-      const data = await response.json();
-      let obj = data[id];
-      obj["Name"] = id;
-      return obj;
-
-  } catch(error) { console.error(error)};
+  try {
+    const response = await fetch('../data/microVitamins.json');
+    const data = await response.json();
+    let obj = data[id];
+    obj['Name'] = id;
+    return obj;
+  } catch (error) {
+    console.error(error);
+  }
 }
 
 function openModalPlant(modalNames) {
@@ -183,8 +176,5 @@ function openModalPlant(modalNames) {
         };
       };
     }
-
-
   }
 }
-

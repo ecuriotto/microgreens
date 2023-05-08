@@ -69,9 +69,21 @@
     "mayaStory": "Maya is a 60-year-old retiree who has struggled with high blood pressure and cholesterol.<br> She knows she needs to eat a healthier diet, but she finds it hard to give up her favorite foods. <br>Microgreens can help Maya <b>eat healthier without sacrificing taste.</b><br> Microgreens are packed with fiber, which can help lower cholesterol and blood pressure.",
     "plantButtonDetail": "Details",
     "plantModalDescription": "(*) Quantities expressed in milligrams over 100g of product",
-    "whoWeAre":"We are a group of microgreens enthusiasts who discovered the benefits of this superfood and now can't get enough of it. Our mission is to share our passion for microgreens with the world and make it easy for anyone to grow and enjoy these nutrient-rich plants",
+    "whoWeAre": "We are a group of microgreens enthusiasts who discovered the benefits of this superfood and now can't get enough of it. Our mission is to share our passion for microgreens with the world and make it easy for anyone to grow and enjoy these nutrient-rich plants",
     "contactUs": "Contact us",
     "sendContactInfo": "Send",
-    "openingHours": "We don't sleep a lot"
+    "openingHours": "We don't sleep a lot",
+    "modalSimpleGrow-title-t": "How to grow Microgreens",
+    "modalSimpleGrow-desc-t": "The grow process consists in 5 steps",
+    "modalSimpleGrow-seeds-t": "Seeds",
+    "modalSimpleGrow-seeds": "Choose your seeds <b>wisely</b>.<br> Consider the variety of seeds available and choose those that you like or that are good for your health.",
+    "modalSimpleGrow-medium-t": "Medium",
+    "modalSimpleGrow-medium": "<b>Prepare the growing medium.</b><br> You can use soil as the growing medium. <br>Make sure the medium is moist, but not too wet. <br> Spread the seeds evenly on the surface, making sure that they are not too close together.<br>Other popular choices for the medium are coco coir, growing mat or even water only (hydroponic)",
+    "modalSimpleGrow-germination-t": "Germination",
+    "modalSimpleGrow-germination": "Germinate the seeds. Cover the seeds with another layer of growing mat or paper towels, and then place a weight on top of the mat or paper towels to ensure good seed-to-soil contact.<br> Keep the seeds in a dark place for a few days to germinate. The reason of that is because it forces the seeds to stretch out in order to look for the light.",
+    "modalSimpleGrow-light-t": "Light",
+    "modalSimpleGrow-light": "<b>Provide light.</b><br> After the seeds have germinated, expose the microgreens to <b>light</b>. <br>You can use natural light or artificial light for this purpose.<br> Place the microgreens in a warm and bright area, and water them regularly to keep them moist. <br>Try to water them from the bottom to prevent mold.",
+    "modalSimpleGrow-harvest-t": "Harvest",
+    "modalSimpleGrow-harvest": "<b>Harvest and enjoy.</b> <br>After a few days of exposure to light, the microgreens should be ready for harvest. <br>Cut them off at the base and rinse them in cold water. <br>Pat them dry and enjoy them in a salad, sandwich, or any other dish you like."
   }
 }

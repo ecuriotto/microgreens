@@ -20,6 +20,7 @@ module.exports = function (grunt) {
           'views/footer.html',
           'views/partials/modal5Reasons.html',
           'views/partials/modalSinglePlant.html',
+          'views/partials/modalSimpleGrow.html',
           'views/libraries.html',
         ],
         dest: 'dist/public/index.html',

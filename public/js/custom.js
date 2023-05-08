@@ -118,7 +118,7 @@ $(document).ready(function () {
     event.stopPropagation();
   });
 
-  var modalNames = ['5Reasons'];
+  var modalNames = ['5Reasons', 'simpleGrow'];
   openModal(modalNames);
   openModalPlant(['singlePlant']);
 
