@@ -6,7 +6,7 @@ app.set('view engine', 'ejs');
 app.use(express.static(__dirname + '/public'));
 // Define a route for the home page
 app.get('/', (req, res) => {
-  res.render('single');
+  res.render('index');
 });
 
 app.get('/home', (req, res) => {

@@ -165,7 +165,7 @@ a:focus {
   padding-left: 18%;
 }
 
-.custom_nav-container .navbar-nav .nav-item .nav-link {
+.custom_nav-container .navbar-nav .nav-item .nav-link, #navbarDropdown {
   padding: 5px 20px;
   color: #ffffff;
   text-align: center;
@@ -173,6 +173,10 @@ a:focus {
   border-radius: 5px;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
+}
+
+.dropdown-item.nav-link {
+  color: #000000 !important;
 }
 
 .custom_nav-container .navbar-nav .nav-item:hover .nav-link,
@@ -617,6 +621,22 @@ a:focus {
   border: none;
 }
 
+#filter-button{
+  display: inline-block;
+  padding: 10px 55px;
+  background-color: #ffbe33;
+  color: #ffffff;
+  border-radius: 45px;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  border: none;
+}
+
+.filter-button-row{
+   display: flex;
+   align-items: center;
+}
+
 .plants_section .btn-box a:hover {
   background-color: #e69c00;
 }
@@ -646,26 +666,25 @@ a:focus {
   width: 100%;
   max-width: 445px;
   position: relative;
-  z-index: 2;
 }
 
 .why_section .detail-box p {
   margin-top: 15px;
 }
 
-.why_section .detail-box a {
+.detail-box a {
   display: inline-block;
   padding: 10px 45px;
   background-color: #ffbe33;
   color: #ffffff;
-  border-radius: 45px;
+  border-radius: 25px;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
   border: none;
   margin-top: 15px;
 }
 
-.why_section .detail-box a:hover {
+.detail-box a:hover {
   background-color: #e69c00;
 }
 
@@ -1094,4 +1113,102 @@ figcaption {
   color: #e9e0df; /* tomato */
   font-size: 0.8rem;
   font-style: italic;
+}
+
+.modal {
+  display: none; /* Hide the modal by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgba(63, 63, 54, 0.8); /* Black background with opacity */
+}
+
+.modal-content {
+  background-color: #12604a;
+  margin: 10px auto; /* Center the modal */
+  padding: 20px;
+  border: 10px solid #4CAF50; /* Add a green border */
+  width: 90%; /* Set the width of the modal */
+  max-width: 1000px; /* Set a maximum width */
+}
+
+.modal-img-box img{
+    max-width: 100%;
+  height: auto;
+}
+
+.modal-img-box img{
+    max-width: 100%;
+  height: auto;
+}
+
+  .modal-plant-header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .modal-plant-body {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .modal-img-box-plant img{
+    max-width: 50%;
+    max-height: 50%;
+    border-radius: 20px;
+    display: block;
+    margin: auto;
+    
+  }
+  .modal-img-box-plant-comp img{
+    max-width: 90%;
+    max-height: 90%;
+    display: block;
+    margin: auto;
+    float: right;
+  }
+    
+  .modal-vitamins-box-plant table {
+    border-collapse: collapse;
+  }
+  
+  .modal-vitamins-box-plant td {
+    padding: 2px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .modal-vitamins-box-plant td:first-child {
+    font-weight: bold;
+  }
+  
+  .modal-vitamins-box-plant td:last-child {
+    text-align: right;
+  }
+
+  .containerModal .row{
+    padding: 10px;
+    
+  }
+
+  .bigTextarea textarea {
+    width: 100%;
+    border: none;
+    height: 300px;
+    margin-bottom: 25px;
+    padding-left: 25px;
+    border: 1px solid #999;
+    outline: none;
+    color: #000000;
+    border-radius: 5px;
+    outline: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    resize: vertical; /* allow the textarea to be resized vertically */
 }

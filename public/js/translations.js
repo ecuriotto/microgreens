@@ -6,27 +6,22 @@ function loadTranslations(lang) {
   fetch('../data/translations.json')
     .then((response) => response.json())
     .then((data) => {
+      if (!data.hasOwnProperty(lang)) {
+        console.error(`Language "${lang}" is not supported. Defaulting to English.`);
+        lang = 'en';
+      }
       const elements = document.querySelectorAll('.trans');
       elements.forEach((element) => {
         const id = element.getAttribute('id');
-        console.log(id);
-        element.innerHTML = data[lang][id];
+        if (!data[lang].hasOwnProperty(id)) {
+          console.warn(
+            `Translation for "${id}" not found in "${lang}" language. Defaulting to English.`
+          );
+          element.innerHTML = data['en'][id];
+        } else {
+          element.innerHTML = data[lang][id];
+        }
       });
     })
     .catch((error) => console.error(error));
 }
-
-// Add event listeners to the Italian and English buttons
-document.getElementById('btn-italian').addEventListener('click', function () {
-  loadTranslations('it');
-});
-
-document.getElementById('btn-english').addEventListener('click', function () {
-  loadTranslations('en');
-});
-
-window.addEventListener('load', function () {
-  let lang = getBrowserLanguage().split('-')[0]; // Get the language code (e.g. "en" or "it")
-  console.log(lang);
-  loadTranslations(lang);
-});

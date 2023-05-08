@@ -29,28 +29,39 @@
                   <a class="nav-link" data-target="#home">Home </a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" data-target="#why"
-                    >Why <span class="sr-only">(current)</span>
+                  <a class="nav-link" data-target="#why">Why <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" data-target="#what">What</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" data-target="#plants">Plants</a>
+                </li>
+                
+                <li class="nav-item dropdown" data-bs-toggle="dropdown">
+                  <a class="dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Health studies
                   </a>
+                  <ul class="dropdown-menu dropdown-health" aria-labelledby="navbarDropdown">
+                    <li><a class="dropdown-item nav-link" data-target="#chemicals" href="#">Generic Information</a></li>
+                    <li><a class="dropdown-item nav-link" data-target="#vitamins" href="#">Vitamins</a></li>
+                    <li><a class="dropdown-item nav-link" data-target="#minerals" href="#">Minerals</a></li>
+                  </ul>
                 </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#what">What</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#plants">Plants</a>
-                </li>
-
-                <li class="nav-item">
-                  <a class="nav-link" href="#chemicals">Health studies</a>
-                </li>
+              
               </ul>
-              <div class="btn-group" role="group">
-                <button type="button" class="btn btn-outline-secondary" id="btn-italian">
-                  <i class="flag-icon flag-icon-it"></i>
+              <div class="dropdown">
+                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  <span class="selected-flag"></span>
                 </button>
-                <button type="button" class="btn btn-outline-secondary" id="btn-english">
-                  <i class="flag-icon flag-icon-gb"></i>
-                </button>
+                <div class="dropdown-menu dropdown-flag" aria-labelledby="dropdownMenuButton">
+                  <a class="dropdown-item" href="#" data-value="it"><i class="flag-icon flag-icon-it"></i> Italian</a>
+                  <a class="dropdown-item" href="#" data-value="en"><i class="flag-icon flag-icon-gb"></i> English</a>
+                </div>
+                <select id="language-select" name="language" style="display:none;">
+                  <option value="it">Italiano</option>
+                  <option value="en">English</option>
+                </select>
               </div>
               <div class="user_option">
                 <a href="" class="user_link">
@@ -62,7 +73,7 @@
                     <i class="fa fa-search" aria-hidden="true"></i>
                   </button>
                 </form>
-                <a href="" class="order_online"> Order Online </a>
+                <!--<a href="" class="order_online"> Order Online </a>-->
               </div>
             </div>
           </nav>
