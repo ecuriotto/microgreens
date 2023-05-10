@@ -1212,3 +1212,23 @@ figcaption {
     box-shadow: none;
     resize: vertical; /* allow the textarea to be resized vertically */
 }
+
+form {
+  display: flex;
+  justify-content: center;
+}
+
+.row-modal-simplegrow{
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+  display:flex;
+  flex-wrap: wrap;
+}
+
+#modalSimpleGrow-title-t,
+#modalSimpleGrow-desc-t {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}

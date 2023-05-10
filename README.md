@@ -1,2 +1,9 @@
+## Static site with microgreens information
 Sito template themewagon (feane).
-Lancialo con npm start
+## Build
+npx grunt
+
+## Run
+from dist directory run:
+
+`http-server -p 8088`
