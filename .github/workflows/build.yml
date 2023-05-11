@@ -19,7 +19,6 @@ jobs:
     - name: Install dependencies and grunt-cli
       run: |
         npm install
-        npm install -g grunt-cli
 
     - name: Build
       run: grunt
@@ -35,5 +34,5 @@ jobs:
     - name: Deploy to GitHub Pages
       uses: actions/deploy-pages@v2.0.1
       with:
-        timout: 60000
+        timeout: 60000
         artifact_name: dist/public
