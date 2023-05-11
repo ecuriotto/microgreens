@@ -19,7 +19,6 @@ jobs:
     - name: Install dependencies and grunt-cli
       run: |
         npm install
-        npm install -g grunt
         npm install -g grunt-cli
 
     - name: Build
