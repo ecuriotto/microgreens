@@ -8,8 +8,9 @@ on:
 jobs:
   buildAndDeploy:
         # Grant GITHUB_TOKEN the permissions required to make a Pages deployment
-    permissions:
-      contents: read
+    env:
+      ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
+    concurrency: ci-${{ github.ref }} # Recommended if you intend to make multiple deployments in quick succession.
     runs-on: ubuntu-latest
 
     steps:
