@@ -6,7 +6,7 @@ on:
       - main
 
 env:
-  ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}      
+  ACCESS_TOKEN: ${{ secrets.GITHUB_TOKEN }}      
 jobs:
   buildAndDeploy:
         # Grant GITHUB_TOKEN the permissions required to make a Pages deployment
