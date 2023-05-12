@@ -23,12 +23,14 @@ module.exports = function (grunt) {
           'views/partials/modalSimpleGrow.html',
           'views/libraries.html',
         ],
-        dest: 'dist/public/index.html',
+        dest: 'dist/index.html',
       },
     },
     copy: {
       public: {
-        src: 'public/**/*',
+        expand: true,
+        cwd: 'public/',
+        src: '**/*',
         dest: 'dist/',
       },
     },
