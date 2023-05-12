@@ -36,4 +36,4 @@ jobs:
       uses: actions/deploy-pages@v2
       with:
         timeout: 60000
-        artifact_name: ./dist
+
