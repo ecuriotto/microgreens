@@ -24,4 +24,5 @@ function loadTranslations(lang) {
       });
     })
     .catch((error) => console.error(error));
+    //test
 }
