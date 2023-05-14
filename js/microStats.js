@@ -1,5 +1,5 @@
 async function findBestMicrogreens(selectedNutrients, numberOfResults) {
-  return fetch('../data/microVitamins.json')
+  return fetch('data/microVitamins.json')
     .then((response) => response.json())
     .then((microgreens) => {
       // Get the minimum and maximum value of each selected nutrient

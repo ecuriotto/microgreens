@@ -3,7 +3,7 @@ function getBrowserLanguage() {
 }
 
 function loadTranslations(lang) {
-  fetch('/data/translations.json')
+  fetch('data/translations.json')
     .then((response) => response.json())
     .then((data) => {
       if (!data.hasOwnProperty(lang)) {
