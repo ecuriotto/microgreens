@@ -30,7 +30,7 @@ module.exports = function (grunt) {
       public: {
         expand: true,
         cwd: 'public/',
-        src: '**/*',
+        src: ['**/*','.nojekyll'],
         dest: 'dist/',
       },
     },
