@@ -53,7 +53,6 @@ function openModalPlant(modalNames) {
         event.preventDefault();
         const id = this.getAttribute('id');
         const plantData = await getPlantData(id);
-        console.log(plantData);
         // Render the modal with the data
         const template = ejs.render(
           `

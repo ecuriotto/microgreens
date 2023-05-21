@@ -97,12 +97,14 @@
                   <span class="selected-flag"></span>
                 </button>
                 <div class="dropdown-menu dropdown-flag" aria-labelledby="dropdownMenuButton">
-                  <a class="dropdown-item" href="#" data-value="it"><i class="flag-icon flag-icon-it"></i> Italian</a>
+                  <a class="dropdown-item" href="#" data-value="it"><i class="flag-icon flag-icon-it"></i> Italiano</a>
                   <a class="dropdown-item" href="#" data-value="en"><i class="flag-icon flag-icon-gb"></i> English</a>
+                  <a class="dropdown-item" href="#" data-value="es"><i class="flag-icon flag-icon-es"></i> Español</a>
                 </div>
                 <select id="language-select" name="language" style="display:none;">
                   <option value="it">Italiano</option>
                   <option value="en">English</option>
+                  <option value="en">Español</option>
                 </select>
               </div>
               <div class="user_option">
@@ -312,7 +314,7 @@
             </ul>
       </div>
       <div class="col-md-1 filter-button-row">
-        <button id="filter-button" title="select chemicals">Select</button>
+        <button id="filter-button" title="select chemicals" class="trans">Select</button>
       </div>
     </div>
     <div class="filters-content">
@@ -397,7 +399,7 @@
           <div class="box">
             <div>
               <div class="img-box">
-                <img src="images/plant-rapini.jpeg" alt="" />
+                <img src="images/plant-rapini.webp" alt="" />
               </div>
               <div class="detail-box">
                 <h5>Rapini</h5>
@@ -714,7 +716,7 @@
       </div>
       <div class="col-md-7">
         <div class="modal-img-box-plant-comp">
-          <img src="images/microResearchWheel.jpg" alt="" />
+          <img src="images/microResearchWheel.webp" alt="" />
         </div>
       </div>
     </div>
@@ -843,7 +845,7 @@
                 </a>
                 <a href="">
                   <i class="fa fa-phone" aria-hidden="true"></i>
-                  <span> Call: ... please write an email instead </span>
+                  <span id="phone" class="trans"> Call: ... please write an email instead </span>
                 </a>
                 <a href="">
                   <i class="fa fa-envelope" aria-hidden="true"></i>
@@ -1054,7 +1056,7 @@
     <script src="js/microStats.js"></script>
     
     <!-- Google Map -->
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCh39n5U-4IoWpsVGUHWdqB6puEkhRLdmI&callback=myMap"></script>
+    <!--<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCh39n5U-4IoWpsVGUHWdqB6puEkhRLdmI&callback=myMap"></script>-->
     <!-- End Google Map -->
     <!--<script src="js/navbar.js"></script>-->
     <script src="js/translations.js"></script>
