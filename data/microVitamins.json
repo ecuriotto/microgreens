@@ -19,9 +19,9 @@
     "VitaminEAlpha": 2.1,
     "VitaminEGamma": 0.6,
     "VitaminE": 2.7,
-    "Image": "plant-rocket-bg.png",
-    "VitCompImage": "vitCompArugula.png",
-    "MinCompImage": "minCompArugula.png",
+    "Image": "plant-rocket-bg.webp",
+    "VitCompImage": "vitCompArugula.webp",
+    "MinCompImage": "minCompArugula.webp",
     "globalScore": 639
   },
   "Broccoli": {
@@ -44,9 +44,9 @@
     "VitaminEAlpha": 2.3,
     "VitaminEGamma": 0.7,
     "VitaminE": 3.1,
-    "Image": "plant-broccoli-bg.png",
-    "VitCompImage": "vitCompBroccoli.png",
-    "MinCompImage": "minCompBroccoli.png",
+    "Image": "plant-broccoli-bg.webp",
+    "VitCompImage": "vitCompBroccoli.webp",
+    "MinCompImage": "minCompBroccoli.webp",
     "globalScore": 876
   },
   "BrusselSprouts": {
@@ -69,9 +69,9 @@
     "VitaminEAlpha": 2.5,
     "VitaminEGamma": 0.2,
     "VitaminE": 2.7,
-    "Image": "plant-brusselSprouts.png",
-    "VitCompImage": "vitBrusselSprouts.png",
-    "MinCompImage": "minBrusselSprouts.png",
+    "Image": "plant-brusselSprouts.webp",
+    "VitCompImage": "vitBrusselSprouts.webp",
+    "MinCompImage": "minBrusselSprouts.webp",
     "globalScore": 699
   },
   "Cabbage Chinese": {
@@ -116,9 +116,9 @@
     "VitaminEAlpha": 2,
     "VitaminEGamma": 0.2,
     "VitaminE": 2.2,
-    "Image": "plant-greenCabbage.png",
-    "VitCompImage": "vitCabbageGreen.png",
-    "MinCompImage": "minCabbageGreen.png",
+    "Image": "plant-greenCabbage.webp",
+    "VitCompImage": "vitCabbageGreen.webp",
+    "MinCompImage": "minCabbageGreen.webp",
     "globalScore": 595
   },
   "Cabbage red": {
@@ -163,9 +163,9 @@
     "VitaminEAlpha": 1.6,
     "VitaminEGamma": 0.6,
     "VitaminE": 2.2,
-    "Image": "plant-cabbageSavoy.png",
-    "VitCompImage": "vitCabbageSavoy.png",
-    "MinCompImage": "minCabbageSavoy.png",
+    "Image": "plant-cabbageSavoy.webp",
+    "VitCompImage": "vitCabbageSavoy.webp",
+    "MinCompImage": "minCabbageSavoy.webp",
     "globalScore": 706
   },
   "Cauliflower": {
@@ -188,9 +188,9 @@
     "VitaminEAlpha": 1.9,
     "VitaminEGamma": 0.5,
     "VitaminE": 2.4,
-    "Image": "plant-cauliflower-bg.png",
-    "VitCompImage": "vitCompCauliflower.png",
-    "MinCompImage": "minCompCauliflower.png",
+    "Image": "plant-cauliflower-bg.webp",
+    "VitCompImage": "vitCompCauliflower.webp",
+    "MinCompImage": "minCompCauliflower.webp",
     "globalScore": 771
   },
   "Collard": {
@@ -279,9 +279,9 @@
     "VitaminEAlpha": 3.6,
     "VitaminEGamma": 0.5,
     "VitaminE": 4.1,
-    "Image": "plant-kale-bg.png",
-    "VitCompImage": "vitCompKale.png",
-    "MinCompImage": "minCompKale.png",
+    "Image": "plant-kale-bg.webp",
+    "VitCompImage": "vitCompKale.webp",
+    "MinCompImage": "minCompKale.webp",
     "globalScore": 898
   },
   "KohlrabiPurple": {
@@ -304,9 +304,9 @@
     "VitaminEAlpha": 2.7,
     "VitaminEGamma": 0.9,
     "VitaminE": 3.6,
-    "Image": "plant-kohlrabiPurple.png",
-    "VitCompImage": "vitkohlrabiPurple.png",
-    "MinCompImage": "minkohlrabiPurple.png",
+    "Image": "plant-kohlrabiPurple.webp",
+    "VitCompImage": "vitkohlrabiPurple.webp",
+    "MinCompImage": "minkohlrabiPurple.webp",
     "globalScore": 980
   },
   "Komatsuna red": {
@@ -373,9 +373,9 @@
     "VitaminEAlpha": 2.7,
     "VitaminEGamma": 0.2,
     "VitaminE": 2.8,
-    "Image": "plant-mustard-bg.png",
-    "VitCompImage": "vitCompMustard.png",
-    "MinCompImage": "minCompMustard.png",
+    "Image": "plant-mustard-bg.webp",
+    "VitCompImage": "vitCompMustard.webp",
+    "MinCompImage": "minCompMustard.webp",
     "globalScore": 552
   },
   "Mustard red": {
@@ -486,9 +486,9 @@
     "VitaminEAlpha": 4.1,
     "VitaminEGamma": 1,
     "VitaminE": 5.1,
-    "Image": "plant-redradish-bg.png",
-    "VitCompImage": "vitCompRedRadish.png",
-    "MinCompImage": "minCompRedRadish.png",
+    "Image": "plant-redradish-bg.webp",
+    "VitCompImage": "vitCompRedRadish.webp",
+    "MinCompImage": "minCompRedRadish.webp",
     "globalScore": 586
   },
   "RadishRuby": {
@@ -511,9 +511,9 @@
     "VitaminEAlpha": 2.5,
     "VitaminEGamma": 1.5,
     "VitaminE": 4,
-    "Image": "plant-radishRuby.png",
-    "VitCompImage": "vitRadishRuby.png",
-    "MinCompImage": "minRadishRuby.png",
+    "Image": "plant-radishRuby.webp",
+    "VitCompImage": "vitRadishRuby.webp",
+    "MinCompImage": "minRadishRuby.webp",
     "globalScore": 291
   },
   "Rapini": {
@@ -537,8 +537,8 @@
     "VitaminEGamma": 0.8,
     "VitaminE": 4.6,
     "Image": "plant-rapini.jpeg",
-    "VitCompImage": "vitCompRapini.png",
-    "MinCompImage": "minCompRapini.png",
+    "VitCompImage": "vitCompRapini.webp",
+    "MinCompImage": "minCompRapini.webp",
     "globalScore": 894
   },
   "Rutabaga": {
@@ -627,9 +627,9 @@
     "VitaminEAlpha": 2.4,
     "VitaminEGamma": 0.3,
     "VitaminE": 2.6,
-    "Image": "plant-uplandCress.png",
-    "VitCompImage": "vitUplandCress.png",
-    "MinCompImage": "minUplandCress.png",
+    "Image": "plant-uplandCress.webp",
+    "VitCompImage": "vitUplandCress.webp",
+    "MinCompImage": "minUplandCress.webp",
     "globalScore": 544
   },
   "Wasabi": {
@@ -652,9 +652,9 @@
     "VitaminEAlpha": 2.4,
     "VitaminEGamma": 0.6,
     "VitaminE": 2.9,
-    "Image": "plant-wasabi.png",
-    "VitCompImage": "vitWasabi.png",
-    "MinCompImage": "minWasabi.png",
+    "Image": "plant-wasabi.webp",
+    "VitCompImage": "vitWasabi.webp",
+    "MinCompImage": "minWasabi.webp",
     "globalScore": 435
   },
   "Watercress": {
@@ -677,9 +677,9 @@
     "VitaminEAlpha": 1.6,
     "VitaminEGamma": 0.2,
     "VitaminE": 1.8,
-    "Image": "plant-watercress.png",
-    "VitCompImage": "vitWatercress.png",
-    "MinCompImage": "minWatercress.png",
+    "Image": "plant-watercress.webp",
+    "VitCompImage": "vitWatercress.webp",
+    "MinCompImage": "minWatercress.webp",
     "globalScore": 292
   }
 }
