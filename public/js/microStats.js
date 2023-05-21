@@ -26,7 +26,6 @@ async function findBestMicrogreens(selectedNutrients, numberOfResults) {
           }
           microgreen[nutrient] = (parseFloat(nutrientValue) - range.min) / (range.max - range.min);
         }
-        //console.log(microgreen);
       }
 
       // Calculate the sum of each selected nutrient for each microgreen
@@ -44,32 +43,10 @@ async function findBestMicrogreens(selectedNutrients, numberOfResults) {
 
       // Sort the microgreens by score in descending order and return the top 3
       microgreenScores.sort((a, b) => b.score - a.score);
-      console.log(microgreenScores);  
       const bestNMicrogreens = microgreenScores
         .slice(0, numberOfResults)
         .map((microgreen) => microgreen.name);
-      console.log(bestNMicrogreens);
       return bestNMicrogreens;
     })
     .catch((error) => console.error(error));
 }
-
-/*
-wasabi
-Kohlrabi purple
-Brussel sprouts
-Upland cress
-Cabbage savoy
-Cabbage green
-Radish ruby
-watercress
-
-      fetch('../data/microVitamins.json')
-        .then((response2) => response2.json())
-        .then((microgreens2) => {
-          for (const item of microgreenScores) {
-            microgreens2[item.name].globalScore = item.score;
-          }
-          console.log(JSON.stringify(microgreens2));
-      }); 
-*/
