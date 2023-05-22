@@ -147,11 +147,8 @@ a:focus {
   padding-left: 25px;
 }
 
-.navbar-brand {
+#website-title {
   font-family: 'Dancing Script', cursive;
-}
-
-.navbar-brand span {
   font-weight: bold;
   font-size: 32px;
   color: #ffffff;
