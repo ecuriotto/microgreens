@@ -85,7 +85,7 @@ $(document).ready(function () {
 
   // Load translations for the selected language
   loadTranslations(lang);
-
+  
   // Set the selected flag in the dropdown
   var selectedFlag = langOption.find('i').clone();
   $('.selected-flag').html(selectedFlag);
@@ -106,7 +106,9 @@ $(document).ready(function () {
     $('.dropdown-flag').dropdown('toggle');
 
     // Load translations for the selected language
-    loadTranslations($(this).data('value'));
+    const lang = $(this).data('value');
+    loadTranslations(lang);
+    applyLangAttribute(lang);
 
     return false;
   });
@@ -189,3 +191,18 @@ function myMap() {
   var map = new google.maps.Map(document.getElementById('googleMap'), mapProp);
 }
 
+function applyLangAttribute(language){
+      if (language === 'en') {
+        document.documentElement.lang = 'en';
+        document.documentElement.setAttribute('country', 'US');
+      } else if (language === 'fr') {
+        document.documentElement.lang = 'fr';
+        document.documentElement.setAttribute('country', 'FR');
+      } else if (language === 'it') {
+        document.documentElement.lang = 'it';
+        document.documentElement.setAttribute('country', 'IT');
+      } else if (language === 'es') {
+        document.documentElement.lang = 'es';
+        document.documentElement.setAttribute('country', 'ES');
+      }
+}
