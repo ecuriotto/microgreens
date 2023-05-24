@@ -30,7 +30,7 @@ module.exports = function (grunt) {
       public: {
         expand: true,
         cwd: 'public/',
-        src: ['**/*','_config.yml','manifest.json', '.htaccess'],
+        src: ['**/*','_config.yml','manifest.json', '404.html'],
         dest: 'dist/',
       },
     },
