@@ -1,0 +1,3 @@
+RewriteEngine On
+RewriteCond %{REQUEST_URI} !^/# [NC]
+RewriteRule ^(.*)$ https://infogreens.com [L,R=301]

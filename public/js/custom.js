@@ -182,6 +182,7 @@ $('.client_owl-carousel').owlCarousel({
   },
 });
 
+
 /** google_map js **/
 function myMap() {
   var mapProp = {
