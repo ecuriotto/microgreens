@@ -1229,3 +1229,9 @@ form {
   margin-top: 20px;
   margin-bottom: 20px;
 }
+
+@media (max-width: 768px) {
+  #vita4MicroGlobal {
+    width: 100%;
+  }
+}
