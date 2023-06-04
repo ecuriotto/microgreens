@@ -1230,8 +1230,31 @@ form {
   margin-bottom: 20px;
 }
 
+
 @media (max-width: 768px) {
   #vita4MicroGlobal {
     width: 100%;
+  }
+}
+
+
+.responsive-image .modal-img-box-plant-comp{
+  max-width: 100%;
+  height: auto;
+}
+
+
+/* Media query for smaller screens like iPhones */
+
+@media screen and (max-width: 480px) {
+  .responsive-image {
+    max-width: 100% !important;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .modal-content {
+    margin: 3px auto;
+    padding: 2px;
   }
 }
