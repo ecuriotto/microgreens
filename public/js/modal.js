@@ -104,7 +104,7 @@ function openModalPlant(modalNames) {
                 </div>
                 <div class="col-md-11">
                   <div class="modal-img-box-plant-comp">
-                    <img src="images/<%= plant.VitCompImage %>" alt="<%= plant.Name %>">
+                    <img class="responsive-image" src="images/<%= plant.VitCompImage %>" alt="<%= plant.Name %>">
                   </div>
                 </div>
               </div>
@@ -149,7 +149,7 @@ function openModalPlant(modalNames) {
                 </div>
                 <div class="col-md-11">
                   <div class="modal-img-box-plant-comp">
-                    <img src="images/<%= plant.MinCompImage %>" alt="<%= plant.Name %>">
+                    <img class="responsive-image" src="images/<%= plant.MinCompImage %>" alt="<%= plant.Name %>">
                   </div>
                 </div>
               </div>
